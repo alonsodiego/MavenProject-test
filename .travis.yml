@@ -9,4 +9,8 @@ addons:
       
 script: 
   - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
-  - sonar-scanner
+  - mvn sonar:sonar \
+  -Dsonar.projectKey=alonsodiego_MavenProject-test \
+  -Dsonar.organization=alonsodiego-github \
+  -Dsonar.host.url=https://sonarcloud.io \
+  -Dsonar.login=7c7e275bd874a87d281aa6d5cfde8c77c897340a
