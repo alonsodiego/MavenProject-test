@@ -11,3 +11,5 @@ script:
   - mvn install -Dmaven.javadoc.skip=true -B -V
   - sonar-scanner
 
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
