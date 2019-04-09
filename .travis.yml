@@ -1,11 +1,11 @@
 Language: java
 Jdk: oraclejdk8
-script: "mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V"
+script: 
+  "mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V"
 
-addons:
-  sonarcloud:
-    organization: "alonsodiego-github" # the key of the org you chose at step #3
-    token:
-      secure: 7c7e275bd874a87d281aa6d5cfde8c77c897340a # encrypted value of your token
 script:
-  - sonar-scanner
+  mvn sonar:sonar \
+  -Dsonar.projectKey=alonsodiego_MavenProject-test \
+  -Dsonar.organization=alonsodiego-github \
+  -Dsonar.host.url=https://sonarcloud.io \
+  -Dsonar.login=7c7e275bd874a87d281aa6d5cfde8c77c897340a
