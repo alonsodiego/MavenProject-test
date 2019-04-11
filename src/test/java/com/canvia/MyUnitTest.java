@@ -1,6 +1,7 @@
 import org.junit.Test;
 import static org.junit.Assert.*;
 
+import com.canvia.MyUnit;
 public class MyUnitTest {
 
     @Test
