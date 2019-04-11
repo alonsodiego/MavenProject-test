@@ -3,12 +3,12 @@ package com.canvia;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-import com.canvia.MyUnit;
-public class MyUnitTest {
+import com.canvia.ClaseAnimal;
+public class ClaseAnimalTest {
 
     @Test
     public void testConcatenate() {
-        MyUnit myUnit = new MyUnit();
+        ClaseAnimal myUnit = new ClaseAnimal();
 
         String result = myUnit.concatenate("one", "two");
 
