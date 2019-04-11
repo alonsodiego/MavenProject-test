@@ -1,6 +1,7 @@
 package com.canvia;
 
 import org.junit.Test;
+import static org.junit.Assert.*;;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
