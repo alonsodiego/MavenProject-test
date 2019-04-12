@@ -8,4 +8,7 @@
 [![Known Vulnerabilities](https://snyk.io/test/github/alonsodiego/MavenProject-test/badge.svg?targetFile=pom.xml)](https://snyk.io/test/github/alonsodiego/MavenProject-test?targetFile=pom.xml)
 [![Maintainability](https://api.codeclimate.com/v1/badges/248934ddfb38afce048a/maintainability)](https://codeclimate.com/github/alonsodiego/MavenProject-test/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/248934ddfb38afce048a/test_coverage)](https://codeclimate.com/github/alonsodiego/MavenProject-test/test_coverage)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/alonsodiego/MavenProject-test.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/alonsodiego/MavenProject-test/alerts/)
+[![Language grade: Java](https://img.shields.io/lgtm/grade/java/g/alonsodiego/MavenProject-test.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/alonsodiego/MavenProject-test/context:java)
+
 Prueba de proyecto desarrollado sobre Java/Maven
