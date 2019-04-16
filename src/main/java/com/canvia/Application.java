@@ -10,4 +10,6 @@ public class Application {
 		SpringApplication.run(Application.class, args);
 	}
 
+	// Esta funcion no sirve
+	public void funcionDummy(){}
 }
